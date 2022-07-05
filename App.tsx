@@ -1,0 +1,14 @@
+import 'react-native-gesture-handler';
+import React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import { TabBar } from './src/navigation/TabBarNavigator';
+
+export const App = () => {
+  return (
+    <NavigationContainer>
+      <TabBar />
+    </NavigationContainer>
+  );
+};
+
+export default App;
